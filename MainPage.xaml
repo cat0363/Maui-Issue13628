@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui_Issue13628.MainPage">
+
+    <ScrollView Orientation="Vertical">
+        <Grid RowDefinitions="100,100,100,100,*,100">
+            <Grid Grid.Row="0" BackgroundColor="Red" />
+            <Grid Grid.Row="1" BackgroundColor="Yellow" />
+            <Grid Grid.Row="2" BackgroundColor="Green" />
+            <Grid Grid.Row="3" BackgroundColor="Blue" />
+            <Map Grid.Row="4" x:Name="map" HeightRequest="250" WidthRequest="250" VerticalOptions="Start" HorizontalOptions="Start" />
+            <Grid Grid.Row="5" BackgroundColor="Purple" />
+        </Grid>
+    </ScrollView>
+    
+</ContentPage>
